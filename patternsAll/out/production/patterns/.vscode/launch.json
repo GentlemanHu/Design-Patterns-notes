@@ -1,0 +1,25 @@
+{
+      "configurations": [
+            {
+                  "type": "java",
+                  "name": "CodeLens (Launch) - a_Serizlizable",
+                  "request": "launch",
+                  "mainClass": "singleton.a_Serizlizable",
+                  "projectName": "01 Singleton_3ee6ba81"
+            },
+            {
+                  "type": "java",
+                  "name": "CodeLens (Launch) - Reflection",
+                  "request": "launch",
+                  "mainClass": "singleton.Reflection",
+                  "projectName": "01 Singleton_3ee6ba81"
+            },
+            {
+                  "type": "java",
+                  "name": "CodeLens (Launch) - MainToTest",
+                  "request": "launch",
+                  "mainClass": "singleton.MainToTest",
+                  "projectName": "01 Singleton_3ee6ba81"
+            }
+      ]
+}
