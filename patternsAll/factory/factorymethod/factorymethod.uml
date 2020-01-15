@@ -2,50 +2,17 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes>
-    <node x="0.0" y="100.0">factory.factorymethod.BWMFactory</node>
-    <node x="0.0" y="295.0">factory.factorymethod.Lamb</node>
-    <node x="80.0" y="0.0">factory.factorymethod.CarFactory</node>
-    <node x="127.0" y="295.0">factory.factorymethod.BWM</node>
-    <node x="63.5" y="195.0">factory.factorymethod.Car</node>
-    <node x="160.0" y="100.0">factory.factorymethod.LambFactory</node>
-    <node x="279.0" y="195.0">factory.factorymethod.Client1</node>
-  </nodes>
+  <nodes />
   <notes />
-  <edges>
-    <edge source="factory.factorymethod.LambFactory" target="factory.factorymethod.CarFactory">
-      <point x="0.0" y="-25.0" />
-      <point x="230.0" y="75.0" />
-      <point x="185.0" y="75.0" />
-      <point x="35.0" y="25.0" />
-    </edge>
-    <edge source="factory.factorymethod.BWMFactory" target="factory.factorymethod.CarFactory">
-      <point x="0.0" y="-25.0" />
-      <point x="70.0" y="75.0" />
-      <point x="115.0" y="75.0" />
-      <point x="-35.0" y="25.0" />
-    </edge>
-    <edge source="factory.factorymethod.Lamb" target="factory.factorymethod.Car">
-      <point x="0.0" y="-25.0" />
-      <point x="53.5" y="270.0" />
-      <point x="90.25" y="270.0" />
-      <point x="-26.75" y="25.0" />
-    </edge>
-    <edge source="factory.factorymethod.BWM" target="factory.factorymethod.Car">
-      <point x="0.0" y="-25.0" />
-      <point x="180.5" y="270.0" />
-      <point x="143.75" y="270.0" />
-      <point x="26.75" y="25.0" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="113.5" />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.15819175997554552" x="1379.0643692126341" y="799.6935328710329" />
   <SelectedNodes />
   <Categories>
-    <Category>Methods</Category>
     <Category>Fields</Category>
-    <Category>Inner Classes</Category>
     <Category>Constructors</Category>
+    <Category>Methods</Category>
     <Category>Properties</Category>
+    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

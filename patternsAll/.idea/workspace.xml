@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49bc8388-ac2e-4a9e-8bd4-93f0db7d0542" name="Default Changelist" comment="" />
+    <list default="true" id="49bc8388-ac2e-4a9e-8bd4-93f0db7d0542" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Iterator/Aggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/BookShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/BookShelfIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/testIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/factorymethod/factorymethod.uml" beforeDir="false" afterPath="$PROJECT_DIR$/factory/factorymethod/factorymethod.uml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +30,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1UNeOD8dycRy3xXABDFke97WiCw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -138,11 +151,27 @@
       <workItem from="1575713073639" duration="179000" />
       <workItem from="1575713481440" duration="1879000" />
       <workItem from="1575964883820" duration="1128000" />
-      <workItem from="1578897173614" duration="2703000" />
+      <workItem from="1578897173614" duration="4723000" />
+      <workItem from="1579088449094" duration="34000" />
+      <workItem from="1579088521379" duration="4000" />
+      <workItem from="1579088992175" duration="366000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
