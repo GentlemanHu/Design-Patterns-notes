@@ -17,7 +17,7 @@ public class Reflection {
 
 
             Class<SingletonDemo1> cla = (Class<SingletonDemo1>) Class.forName("singleton.SingletonDemo1");
-            Constructor<SingletonDemo1> c = cla.getDeclaredConstructor(null);
+            Constructor<SingletonDemo1> c = cla.getDeclaredConstructor((Class<?>) null);
             //加上这一行可访问
             c.setAccessible(true);
 
@@ -30,7 +30,7 @@ public class Reflection {
 
             //下列为反-反射测试
             Class<SingletonDemo2> cla2 = (Class<SingletonDemo2>) Class.forName("singleton.SingletonDemo2");
-            Constructor<SingletonDemo2> c2 = cla2.getDeclaredConstructor(null);
+            Constructor<SingletonDemo2> c2 = cla2.getDeclaredConstructor((Class<?>) null);
             //加上这一行可访问
             c2.setAccessible(true);
 

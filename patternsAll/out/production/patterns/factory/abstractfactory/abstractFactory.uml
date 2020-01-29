@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="513.7619047619049" y="202.0">factory.abstractfactory.LuxuryCarFactory</node>
+    <node x="875.2748299319729" y="202.0">factory.abstractfactory.LowSeat</node>
+    <node x="160.85986394557835" y="0.0">factory.abstractfactory.Tire</node>
+    <node x="303.77482993197293" y="348.0">factory.abstractfactory.LowCarFactory</node>
+    <node x="317.79761904761926" y="106.0">factory.abstractfactory.LowEngine</node>
+    <node x="716.2748299319729" y="106.0">factory.abstractfactory.HighEngine</node>
+    <node x="649.5248299319729" y="348.0">factory.abstractfactory.Client</node>
+    <node x="499.35986394557835" y="0.0">factory.abstractfactory.Engine</node>
+    <node x="826.6098639455784" y="0.0">factory.abstractfactory.Seat</node>
+    <node x="446.7976190476192" y="106.0">factory.abstractfactory.CarFactory</node>
+    <node x="594.2748299319729" y="106.0">factory.abstractfactory.HighSeat</node>
+    <node x="169.79761904761926" y="106.0">factory.abstractfactory.LuxuryTire</node>
+    <node x="0.0" y="106.0">factory.abstractfactory.NormalTire</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.abstractfactory.LowCarFactory" target="factory.abstractfactory.Seat">
+      <point x="39.14285714285717" y="-13.0" />
+      <point x="411.41768707483016" y="298.0" />
+      <point x="864.7748299319729" y="298.0" />
+      <point x="864.7748299319729" y="86.0" />
+      <point x="869.776530612245" y="86.0" />
+      <point x="6.166666666666629" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.CarFactory" target="factory.abstractfactory.Seat">
+      <point x="38.66666666666663" y="-13.0" />
+      <point x="543.4642857142858" y="76.0" />
+      <point x="832.776530612245" y="76.0" />
+      <point x="-30.83333333333337" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LowCarFactory" target="factory.abstractfactory.NormalTire">
+      <point x="-58.71428571428572" y="-13.0" />
+      <point x="313.56054421768727" y="328.0" />
+      <point x="58.0" y="328.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.HighSeat" target="factory.abstractfactory.Seat">
+      <point x="0.0" y="-13.0" />
+      <point x="645.2748299319729" y="86.0" />
+      <point x="845.1098639455784" y="86.0" />
+      <point x="-18.5" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LuxuryTire" target="factory.abstractfactory.Tire">
+      <point x="0.0" y="-13.0" />
+      <point x="227.79761904761926" y="86.0" />
+      <point x="204.02653061224498" y="86.0" />
+      <point x="6.166666666666629" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.Client" target="factory.abstractfactory.Engine">
+      <point x="16.5" y="-13.0" />
+      <point x="710.0248299319729" y="288.0" />
+      <point x="842.7748299319729" y="288.0" />
+      <point x="842.7748299319729" y="46.0" />
+      <point x="580.026530612245" y="46.0" />
+      <point x="36.66666666666663" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LuxuryCarFactory" target="factory.abstractfactory.HighEngine">
+      <point x="45.14285714285711" y="-13.0" />
+      <point x="637.904761904762" y="172.0" />
+      <point x="745.2748299319729" y="172.0" />
+      <point x="-29.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.HighEngine" target="factory.abstractfactory.Engine">
+      <point x="0.0" y="-13.0" />
+      <point x="774.2748299319729" y="56.0" />
+      <point x="565.3598639455784" y="56.0" />
+      <point x="22.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.Client" target="factory.abstractfactory.Tire">
+      <point x="-38.5" y="-13.0" />
+      <point x="655.0248299319729" y="278.0" />
+      <point x="159.29761904761926" y="278.0" />
+      <point x="159.29761904761926" y="86.0" />
+      <point x="191.69319727891173" y="86.0" />
+      <point x="-6.166666666666629" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LuxuryCarFactory" target="factory.abstractfactory.Engine">
+      <point x="0.0" y="-13.0" />
+      <point x="592.7619047619049" y="182.0" />
+      <point x="583.7748299319729" y="182.0" />
+      <point x="583.7748299319729" y="66.0" />
+      <point x="550.6931972789116" y="66.0" />
+      <point x="7.333333333333314" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.Client" target="factory.abstractfactory.CarFactory">
+      <point x="-16.5" y="-13.0" />
+      <point x="677.0248299319729" y="258.0" />
+      <point x="490.9642857142859" y="258.0" />
+      <point x="490.9642857142859" y="182.0" />
+      <point x="504.7976190476192" y="182.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.Client" target="factory.abstractfactory.LowSeat">
+      <point x="27.5" y="-13.0" />
+      <point x="721.0248299319729" y="318.0" />
+      <point x="946.5248299319729" y="318.0" />
+      <point x="23.75" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LuxuryCarFactory" target="factory.abstractfactory.CarFactory">
+      <point x="-22.571428571428555" y="-13.0" />
+      <point x="570.1904761904764" y="152.0" />
+      <point x="543.4642857142858" y="152.0" />
+      <point x="38.66666666666663" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LowCarFactory" target="factory.abstractfactory.LowEngine">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LuxuryCarFactory" target="factory.abstractfactory.HighSeat">
+      <point x="22.571428571428555" y="-13.0" />
+      <point x="615.3333333333335" y="162.0" />
+      <point x="645.2748299319729" y="162.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LowSeat" target="factory.abstractfactory.Seat">
+      <point x="0.0" y="-13.0" />
+      <point x="922.7748299319729" y="86.0" />
+      <point x="882.1098639455784" y="86.0" />
+      <point x="18.5" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LuxuryCarFactory" target="factory.abstractfactory.Tire">
+      <point x="-45.14285714285711" y="-13.0" />
+      <point x="547.6190476190478" y="162.0" />
+      <point x="296.29761904761926" y="162.0" />
+      <point x="296.29761904761926" y="76.0" />
+      <point x="216.35986394557835" y="76.0" />
+      <point x="18.5" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.Client" target="factory.abstractfactory.HighEngine">
+      <point x="5.5" y="-13.0" />
+      <point x="699.0248299319729" y="278.0" />
+      <point x="803.2748299319729" y="278.0" />
+      <point x="28.99999999999997" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.Client" target="factory.abstractfactory.Seat">
+      <point x="38.5" y="-13.0" />
+      <point x="732.0248299319729" y="328.0" />
+      <point x="985.5654761904764" y="328.0" />
+      <point x="985.5654761904764" y="76.0" />
+      <point x="894.4431972789117" y="76.0" />
+      <point x="30.83333333333337" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LowCarFactory" target="factory.abstractfactory.LowSeat">
+      <point x="58.71428571428572" y="-13.0" />
+      <point x="430.9891156462587" y="308.0" />
+      <point x="899.0248299319729" y="308.0" />
+      <point x="-23.75" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.NormalTire" target="factory.abstractfactory.Tire">
+      <point x="0.0" y="-13.0" />
+      <point x="58.0" y="66.0" />
+      <point x="167.02653061224498" y="66.0" />
+      <point x="-30.83333333333337" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LowCarFactory" target="factory.abstractfactory.CarFactory">
+      <point x="19.571428571428555" y="-13.0" />
+      <point x="391.8462585034015" y="288.0" />
+      <point x="472.0" y="288.0" />
+      <point x="472.0" y="182.0" />
+      <point x="466.1309523809525" y="182.0" />
+      <point x="-38.666666666666686" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.CarFactory" target="factory.abstractfactory.Engine">
+      <point x="0.0" y="-13.0" />
+      <point x="504.7976190476192" y="86.0" />
+      <point x="536.026530612245" y="86.0" />
+      <point x="-7.333333333333343" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.Client" target="factory.abstractfactory.LuxuryTire">
+      <point x="-27.5" y="-13.0" />
+      <point x="666.0248299319729" y="268.0" />
+      <point x="198.79761904761926" y="268.0" />
+      <point x="-29.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LowEngine" target="factory.abstractfactory.Engine">
+      <point x="0.0" y="-13.0" />
+      <point x="372.29761904761926" y="76.0" />
+      <point x="521.3598639455784" y="76.0" />
+      <point x="-22.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LowCarFactory" target="factory.abstractfactory.Engine">
+      <point x="-19.571428571428555" y="-13.0" />
+      <point x="352.7034013605444" y="308.0" />
+      <point x="307.29761904761926" y="308.0" />
+      <point x="307.29761904761926" y="66.0" />
+      <point x="506.6931972789117" y="66.0" />
+      <point x="-36.66666666666666" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LuxuryCarFactory" target="factory.abstractfactory.LuxuryTire">
+      <point x="-67.71428571428567" y="-13.0" />
+      <point x="525.0476190476193" y="172.0" />
+      <point x="256.79761904761926" y="172.0" />
+      <point x="29.0" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LowCarFactory" target="factory.abstractfactory.Tire">
+      <point x="-39.14285714285711" y="-13.0" />
+      <point x="333.1319727891158" y="318.0" />
+      <point x="126.5" y="318.0" />
+      <point x="126.5" y="76.0" />
+      <point x="179.35986394557835" y="76.0" />
+      <point x="-18.5" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.LuxuryCarFactory" target="factory.abstractfactory.Seat">
+      <point x="67.71428571428578" y="-13.0" />
+      <point x="660.4761904761907" y="182.0" />
+      <point x="853.7748299319729" y="182.0" />
+      <point x="853.7748299319729" y="86.0" />
+      <point x="857.4431972789117" y="86.0" />
+      <point x="-6.166666666666629" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.CarFactory" target="factory.abstractfactory.Tire">
+      <point x="-38.66666666666663" y="-13.0" />
+      <point x="466.1309523809526" y="56.0" />
+      <point x="228.69319727891173" y="56.0" />
+      <point x="30.83333333333337" y="13.0" />
+    </edge>
+    <edge source="factory.abstractfactory.Client" target="factory.abstractfactory.LuxuryCarFactory">
+      <point x="-5.5" y="-13.0" />
+      <point x="688.0248299319729" y="248.0" />
+      <point x="592.7619047619049" y="248.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="489.9090909090909" y="88.66666666666669" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
