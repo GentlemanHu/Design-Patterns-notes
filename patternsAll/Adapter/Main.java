@@ -17,7 +17,7 @@ public class Main {
                   System.out.println(f.getAll("Adapter/newfile.txt"));
 
             } catch (Exception e) {
-                  // TODO: handle exception
+                  
             }
       }
 }

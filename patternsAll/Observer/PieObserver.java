@@ -18,16 +18,16 @@ public class PieObserver extends JFrame implements Observer, ActionListener {
       private GraphCanvas canvasGraph = new GraphCanvas();
       private GraphText textGraph = new GraphText(60);
       private JButton buttonClose = new JButton("Close");
-
+      private Bar bar = new Bar(new Dimension(100,70));
       public PieObserver() {
             super("PieObserver");
             setLayout(new BorderLayout());
             setBackground(Color.lightGray);
             textGraph.setEditable(false);
-            canvasGraph.setSize(500, 500);
+            canvasGraph.setSize(500, 650);
             add(textGraph, BorderLayout.NORTH);
             add(canvasGraph, BorderLayout.CENTER);
-            add(buttonClose, BorderLayout.SOUTH);
+            add(bar, BorderLayout.SOUTH);
             buttonClose.addActionListener(this);
             pack();
             this.setLocationRelativeTo(null);
@@ -38,6 +38,7 @@ public class PieObserver extends JFrame implements Observer, ActionListener {
       public void update(NumberGenerator generator) {
             textGraph.update(generator);
             canvasGraph.update(generator);
+            bar.update(generator);
       }
 
       @Override
@@ -95,9 +96,9 @@ class GraphCanvas extends Canvas implements Observer {
       public void paint(Graphics g) {
             int width = getWidth();
             int height = getHeight();
-            g.setColor(Color.white);
+            g.setColor(new Color(255,number,number));
             g.fillArc(0, 0, width, height, 0, 360);
             g.setColor(Color.BLUE);
-            g.fillArc(0, 0, width, height, 90, -number * 360 / 50);
+            g.fillArc(0, 0, width, height, 90, -number * 360 / 100);
       }
 }
