@@ -11,7 +11,7 @@ public class Main {
             Manager manager = new Manager();
             UnderlinePen upen = new UnderlinePen('~');
             MessageBox mBox = new MessageBox('*');
-            MessageBox sBox = new MessageBox('/');
+            MessageBox sBox = new MessageBox('-');
             manager.register("Strong Message", upen);
             manager.register("Warning Box", mBox);
             manager.register("Slash Box", sBox);
@@ -20,11 +20,9 @@ public class Main {
             Product p2 = manager.create("Warning Box");
             Product p3 = manager.create("Slash Box");
 
-            while (true) {
+            p1.use("Hello World");
+            p2.use("Hello World");
+            p3.use("Hello World");
 
-                  p1.use("Hello World");
-                  p2.use("Hello World");
-                  p3.use("Hello World");
-            }
       }
 }
