@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49bc8388-ac2e-4a9e-8bd4-93f0db7d0542" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/META-INF/patterns.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/factory/abstractfactory/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/factory/abstractfactory/CarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/factory/abstractfactory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/factory/abstractfactory/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/factory/abstractfactory/LowCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/factory/abstractfactory/LowCarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/factory/abstractfactory/LuxuryCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/factory/abstractfactory/LuxuryCarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/factory/factorymethod/factorymethod.uml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/factory/factorymethod/factorymethod.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/singleton/Reflection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/singleton/Reflection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/Reflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/Reflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01 Singleton/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01 Singleton/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01 Singleton/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/01 Singleton/01 Singleton.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,6 +174,7 @@
       <workItem from="1580292444061" duration="3110000" />
       <workItem from="1580301874959" duration="695000" />
       <workItem from="1580302576750" duration="199000" />
+      <workItem from="1585391586572" duration="82000" />
     </task>
     <servers />
   </component>
